@@ -35,6 +35,10 @@ header {
   color: #323232;
   text-decoration: none;
   font-size: 20px;
+  transition: 0.15s;
+}
+.headerFix .headerLeft .headerNav a:hover {
+  color: #fe5341;
 }
 .headerFix .headerLeft .headerNav .headerNavActive {
   color: #fe5341;

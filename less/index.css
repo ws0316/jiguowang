@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main .focus {
+  width: 100%;
+  height: 300px;
+  background: url(../img/original.jpg) no-repeat -200px 0px;
+  position: relative;
+}
+main .focus .focusInfo {
+  position: absolute;
+  top: 40px;
+  left: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+}
+main .focus .focusInfo h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+main .focus .focusInfo .lable span {
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+main .focus .focusInfo .time {
+  padding: 20px 0 16px 0;
+  font-size: 18px;
+}
+main .focus .focusInfo .btn {
+  width: 242px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 24px;
+  border-radius: 3px;
+  text-decoration: none;
+  background: #fe5341;
+  color: #fff;
+}
