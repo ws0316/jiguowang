@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+  background: #505050;
+  color: #a3a3a3;
+  padding: 40px 0 15px;
+}
+footer .footerEntirety {
+  width: 1000px;
+  margin: auto;
+}
+footer .footerEntirety .footerContent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 20px;
+}
+footer .footerEntirety .footerContent img {
+  width: 160px;
+  height: 160px;
+}
+footer .footerEntirety .footerContent .footerWeChat {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footerEntirety .footerContent .footerWeChat img {
+  width: 120px;
+  height: 46px;
+  margin-bottom: 25px;
+}
+footer .footerEntirety .footerContent .footerWeChat span {
+  margin-bottom: 14px;
+}
+footer .footerEntirety .footerContent .footerItem {
+  display: flex;
+  flex-direction: column;
+}
+footer .footerEntirety .footerContent .footerItem p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 25px;
+}
+footer .footerEntirety .footerContent .footerItem span {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerEntirety .footerContent .footerItem span a {
+  color: #a3a3a3;
+}
+footer .footerEntirety .footerCopy {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 80px;
+}
